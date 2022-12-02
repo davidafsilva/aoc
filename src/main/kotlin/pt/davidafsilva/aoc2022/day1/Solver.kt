@@ -1,7 +1,6 @@
 package pt.davidafsilva.aoc2022.day1
 
-import kotlin.streams.asSequence
-import java.lang.ClassLoader.getSystemResourceAsStream as loadResource
+import pt.davidafsilva.aoc2022.loadInput
 
 private data class Elf(
     val foodItems: MutableList<FoodItem> = mutableListOf(),
@@ -18,7 +17,7 @@ private fun loadElves(): List<Elf> {
         val currentElf: Elf = Elf(),
     )
 
-    return calories().fold(State()) { state, calories ->
+    return loadInput(day = 1).fold(State()) { state, calories ->
         if (calories.isBlank()) {
             state.elves.add(state.currentElf)
             state.copy(currentElf = Elf())
@@ -28,10 +27,6 @@ private fun loadElves(): List<Elf> {
         }
     }.elves
 }
-
-private fun calories(): Sequence<String> = loadResource("day1/input.txt")!!
-    .bufferedReader()
-    .lines().asSequence()
 
 fun main() {
     val elves = loadElves().sortedByDescending(Elf::totalCalories)

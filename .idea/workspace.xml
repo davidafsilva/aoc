@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5522a38f-6c5e-4dca-a8e3-2a14a5d9ba7a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Inputs.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day2/Solver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day2/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day1/Solver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day1/Solver.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/inputs/day1/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/day1/input.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +89,7 @@
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "go.import.settings.migrated": "true",
+    "last_opened_file_path": "/Users/dsi30/dev/davidafsilva/aoc-2022/src/main/kotlin/pt/davidafsilva/aoc2022/day2",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -94,6 +97,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/day1" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -102,17 +108,50 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day1" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="SolverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.Day 1">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="aoc-2022" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="aoc-2022" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Day 1" type="JetRunConfigurationType" temporary="true">
       <option name="MAIN_CLASS_NAME" value="pt.davidafsilva.aoc2022.day1.SolverKt" />
       <module name="aoc-2022.main" />
+      <shortenClasspath name="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day 2" type="JetRunConfigurationType" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="pt.davidafsilva.aoc2022.day2.SolverKt" />
+      <module name="aoc-2022.main" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Kotlin.Day 1" />
+      <item itemvalue="Kotlin.Day 2" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.SolverKt" />
+        <item itemvalue="Kotlin.Day 2" />
+        <item itemvalue="Kotlin.Day 1" />
       </list>
     </recent_temporary>
   </component>
