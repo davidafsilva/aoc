@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5522a38f-6c5e-4dca-a8e3-2a14a5d9ba7a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day3/Solver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day3/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Inputs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Inputs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day4/Solver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day4/Solver.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,14 +98,14 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/day1" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/day1" />
       <recent name="$PROJECT_DIR$/src/main/resources/inputs" />
       <recent name="$PROJECT_DIR$/src/main/resources/inputs/day1" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day1" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Day 3">
+  <component name="RunManager" selected="Kotlin.Day 4">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="aoc-2022" />
       <working_directory value="$PROJECT_DIR$" />
@@ -151,13 +149,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day 4" type="JetRunConfigurationType" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="pt.davidafsilva.aoc2022.pt.davidafsilva.aoc2022.day4.SolverKt" />
+      <module name="aoc-2022.main" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Kotlin.Day 4" />
       <item itemvalue="Kotlin.Day 3" />
       <item itemvalue="Kotlin.Day 1" />
       <item itemvalue="Kotlin.Day 2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day 4" />
         <item itemvalue="Kotlin.Day 3" />
         <item itemvalue="Kotlin.Day 2" />
         <item itemvalue="Kotlin.Day 1" />
