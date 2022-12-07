@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5522a38f-6c5e-4dca-a8e3-2a14a5d9ba7a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day6/Solver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day6/Solver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day7/Solver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day7/input.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,20 +80,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/Users/dsi30/dev/davidafsilva/aoc-2022/src/main/kotlin/pt/davidafsilva/aoc2022",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "actions.on.save"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dsi30/dev/davidafsilva/aoc-2022/src/main/kotlin/pt/davidafsilva/aoc2022&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022" />
@@ -106,7 +107,7 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day1" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Day 6">
+  <component name="RunManager" selected="Kotlin.Day 7">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="aoc-2022" />
       <working_directory value="$PROJECT_DIR$" />
@@ -125,14 +126,6 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <method v="2" />
-    </configuration>
-    <configuration name="Day 2" type="JetRunConfigurationType" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="pt.davidafsilva.aoc2022.day2.SolverKt" />
-      <module name="aoc-2022.main" />
-      <shortenClasspath name="NONE" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="Day 3" type="JetRunConfigurationType" temporary="true">
       <option name="MAIN_CLASS_NAME" value="pt.davidafsilva.aoc2022.day3.SolverKt" />
@@ -166,20 +159,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day 7" type="JetRunConfigurationType" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="pt.davidafsilva.aoc2022.day7.SolverKt" />
+      <module name="aoc-2022.main" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Kotlin.Day 7" />
       <item itemvalue="Kotlin.Day 6" />
       <item itemvalue="Kotlin.Day 5" />
       <item itemvalue="Kotlin.Day 4" />
       <item itemvalue="Kotlin.Day 3" />
-      <item itemvalue="Kotlin.Day 2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day 7" />
         <item itemvalue="Kotlin.Day 6" />
         <item itemvalue="Kotlin.Day 5" />
         <item itemvalue="Kotlin.Day 4" />
         <item itemvalue="Kotlin.Day 3" />
-        <item itemvalue="Kotlin.Day 2" />
       </list>
     </recent_temporary>
   </component>
