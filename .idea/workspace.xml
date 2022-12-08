@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5522a38f-6c5e-4dca-a8e3-2a14a5d9ba7a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day7/Solver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day7/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day8/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day7/Solver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day8/Solver.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +87,7 @@
     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dsi30/dev/davidafsilva/aoc-2022/src/main/kotlin/pt/davidafsilva/aoc2022&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dsi30/dev/davidafsilva/aoc-2022/src/main/kotlin/pt/davidafsilva/aoc2022/day8&quot;,
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -96,6 +96,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day8" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day7" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day2" />
     </key>
@@ -106,8 +108,11 @@
       <recent name="$PROJECT_DIR$/src/main/resources/inputs/day1" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day1" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pt.davidafsilva.aoc2022.day8" />
+    </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Day 7">
+  <component name="RunManager" selected="Kotlin.SolverKt">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="aoc-2022" />
       <working_directory value="$PROJECT_DIR$" />
@@ -126,14 +131,6 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <method v="2" />
-    </configuration>
-    <configuration name="Day 3" type="JetRunConfigurationType" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="pt.davidafsilva.aoc2022.day3.SolverKt" />
-      <module name="aoc-2022.main" />
-      <shortenClasspath name="NONE" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="Day 4" type="JetRunConfigurationType" temporary="true">
       <option name="MAIN_CLASS_NAME" value="pt.davidafsilva.aoc2022.pt.davidafsilva.aoc2022.day4.SolverKt" />
@@ -167,20 +164,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pt.davidafsilva.aoc2022.day8.SolverKt" />
+      <module name="aoc-2022.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Kotlin.SolverKt" />
       <item itemvalue="Kotlin.Day 7" />
       <item itemvalue="Kotlin.Day 6" />
       <item itemvalue="Kotlin.Day 5" />
       <item itemvalue="Kotlin.Day 4" />
-      <item itemvalue="Kotlin.Day 3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SolverKt" />
         <item itemvalue="Kotlin.Day 7" />
         <item itemvalue="Kotlin.Day 6" />
         <item itemvalue="Kotlin.Day 5" />
         <item itemvalue="Kotlin.Day 4" />
-        <item itemvalue="Kotlin.Day 3" />
       </list>
     </recent_temporary>
   </component>
