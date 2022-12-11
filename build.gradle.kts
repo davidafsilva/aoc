@@ -12,6 +12,10 @@ repositories {
     mavenCentral()
 }
 
+dependencies {
+    implementation("net.objecthunter:exp4j:0.4.8")
+}
+
 tasks.withType<KotlinCompile> {
     kotlinOptions.jvmTarget = "17"
 }
