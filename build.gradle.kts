@@ -14,6 +14,7 @@ repositories {
 
 dependencies {
     implementation("net.objecthunter:exp4j:0.4.8")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
 }
 
 tasks.withType<KotlinCompile> {
