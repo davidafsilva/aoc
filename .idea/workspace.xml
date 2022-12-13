@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5522a38f-6c5e-4dca-a8e3-2a14a5d9ba7a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day12/Solver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day12/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-    </list>
+    <list default="true" id="5522a38f-6c5e-4dca-a8e3-2a14a5d9ba7a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
