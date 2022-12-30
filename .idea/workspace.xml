@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5522a38f-6c5e-4dca-a8e3-2a14a5d9ba7a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day15/Solver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day15/input.txt" afterDir="false" />
+    <list default="true" id="5522a38f-6c5e-4dca-a8e3-2a14a5d9ba7a" name="Changes" comment="day 15">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day16/Solver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day16/input.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,20 +80,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dsi30/dev/davidafsilva/aoc-2022/src/main/kotlin/pt/davidafsilva/aoc2022&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "/Users/dsi30/dev/davidafsilva/aoc-2022/src/main/kotlin/pt/davidafsilva/aoc2022",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022" />
@@ -136,9 +136,10 @@
     <configuration name="SolverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="zulu-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="pt.davidafsilva.aoc2022.day15.SolverKt" />
+      <option name="MAIN_CLASS_NAME" value="pt.davidafsilva.aoc2022.day16.SolverKt" />
       <module name="aoc-2022.main" />
       <shortenClasspath name="NONE" />
+      <option name="VM_PARAMETERS" value="-server " />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -190,6 +191,10 @@
         <entry key="a7cd0b18-fa4e-4774-9cbc-e3b6683824c7" value="TOOL_WINDOW" />
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="day 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 15" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
