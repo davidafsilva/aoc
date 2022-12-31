@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5522a38f-6c5e-4dca-a8e3-2a14a5d9ba7a" name="Changes" comment="day 15">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day16/Solver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/day16/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day17/Solver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day17/Solver.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +90,7 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -133,22 +132,6 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="SolverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="zulu-17" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="pt.davidafsilva.aoc2022.day16.SolverKt" />
-      <module name="aoc-2022.main" />
-      <shortenClasspath name="NONE" />
-      <option name="VM_PARAMETERS" value="-server " />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Kotlin.SolverKt" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="Vcs.Log.Tabs.Properties">
