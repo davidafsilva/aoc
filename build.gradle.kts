@@ -1,23 +1,27 @@
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-
 plugins {
-    kotlin("jvm") version "1.7.21"
+    kotlin("jvm") version "1.9.21"
 }
 
-group = "pt.davidafsilva.aoc"
-version = "1.0-SNAPSHOT"
-
-repositories {
-    mavenLocal()
-    mavenCentral()
+allprojects {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
 }
 
-dependencies {
-    implementation("net.objecthunter:exp4j:0.4.8")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1")
-}
+subprojects {
+    group = "pt.davidafsilva.aoc"
+    version = "1.0-SNAPSHOT"
 
-tasks.withType<KotlinCompile> {
-    kotlinOptions.jvmTarget = "17"
+    apply(plugin = "org.jetbrains.kotlin.jvm")
+
+    kotlin {
+        jvmToolchain(17)
+    }
+
+    dependencies {
+        implementation("net.objecthunter:exp4j:0.4.8")
+        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+        implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.1")
+    }
 }
