@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5522a38f-6c5e-4dca-a8e3-2a14a5d9ba7a" name="Changes" comment="day 15">
-      <change beforePath="$PROJECT_DIR$/aoc-2023/src/main/kotlin/pt/davidafsilva/aoc2023/day1/Solver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2023/src/main/kotlin/pt/davidafsilva/aoc2023/day1/Solver.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aoc-2023/src/main/kotlin/pt/davidafsilva/aoc2023/day2/Solver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2023/src/main/kotlin/pt/davidafsilva/aoc2023/day2/Solver.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,7 @@
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "jdk.selected.JAVA_MODULE": "zulu-17",
-    "last_opened_file_path": "/Users/dsi30/dev/davidafsilva/aoc",
+    "last_opened_file_path": "/Users/dsi30/dev/davidafsilva/aoc/aoc-2023/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -100,11 +100,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/aoc-2023/src/main/resources" />
+      <recent name="$PROJECT_DIR$/aoc-2023/src/main/kotlin/pt/davidafsilva/aoc2023/day2" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022" />
-      <recent name="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/" />
-      <recent name="$PROJECT_DIR$/src/main/kotlin/pt/davidafsilva/aoc2022/day8" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/aoc-2022/src/main/kotlin" />
@@ -117,7 +117,7 @@
       <recent name="pt.davidafsilva.aoc2022.day8" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.SolverKt (1)">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="aoc-2022" />
       <working_directory value="$PROJECT_DIR$" />
@@ -137,6 +137,13 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
+    <configuration name="SolverKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pt.davidafsilva.aoc2022.pt.davidafsilva.aoc2023.day2.SolverKt" />
+      <module name="aoc.aoc-2023.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pt.davidafsilva.aoc2023.day1.SolverKt" />
       <module name="aoc.aoc-2023.main" />
@@ -146,6 +153,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SolverKt (1)" />
         <item itemvalue="Kotlin.SolverKt" />
       </list>
     </recent_temporary>
