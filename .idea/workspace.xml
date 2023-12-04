@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5522a38f-6c5e-4dca-a8e3-2a14a5d9ba7a" name="Changes" comment="day 15">
-      <change afterPath="$PROJECT_DIR$/aoc-2023/src/main/kotlin/pt/davidafsilva/aoc2023/TEst.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sdkmanrc" beforeDir="false" afterPath="$PROJECT_DIR$/.sdkmanrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aoc-2023/src/main/kotlin/pt/davidafsilva/aoc2023/TEst.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,25 +79,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;zulu-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dsi30/dev/davidafsilva/aoc/aoc-2023/src/main/kotlin/pt/davidafsilva/aoc2023&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "jdk.selected.JAVA_MODULE": "zulu-17",
+    "last_opened_file_path": "/Users/dsi30/dev/davidafsilva/aoc/aoc-2023/src/main/kotlin/pt/davidafsilva/aoc2023",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/aoc-2023/src/main/kotlin/pt/davidafsilva/aoc2023" />
@@ -119,7 +117,7 @@
       <recent name="pt.davidafsilva.aoc2022.day8" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.TEstKt">
+  <component name="RunManager">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="aoc-2022" />
       <working_directory value="$PROJECT_DIR$" />
@@ -139,26 +137,6 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="SolverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pt.davidafsilva.aoc2022.pt.davidafsilva.aoc2023.day4.SolverKt" />
-      <module name="aoc.aoc-2023.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TEstKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pt.davidafsilva.aoc2022.pt.davidafsilva.aoc2023.TEstKt" />
-      <module name="aoc.aoc-2023.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Kotlin.TEstKt" />
-        <item itemvalue="Kotlin.SolverKt" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">

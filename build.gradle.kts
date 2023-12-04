@@ -16,7 +16,7 @@ subprojects {
     apply(plugin = "org.jetbrains.kotlin.jvm")
 
     kotlin {
-        jvmToolchain(17)
+        jvmToolchain(21)
     }
 
     dependencies {
