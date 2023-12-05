@@ -1,4 +1,4 @@
-package pt.davidafsilva.aoc2022.pt.davidafsilva.aoc2023.day4
+package pt.davidafsilva.aoc2023.day4
 
 import pt.davidafsilva.aoc2022.loadInput
 import kotlin.math.pow
