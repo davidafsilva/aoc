@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5522a38f-6c5e-4dca-a8e3-2a14a5d9ba7a" name="Changes" comment="day 15">
-      <change beforePath="$PROJECT_DIR$/aoc-2023/src/main/kotlin/pt/davidafsilva/aoc2023/TEst.kt" beforeDir="false" />
+    <list default="true" id="5522a38f-6c5e-4dca-a8e3-2a14a5d9ba7a" name="Changes" comment="fixes packages">
+      <change beforePath="$PROJECT_DIR$/aoc-2023/src/main/kotlin/pt/davidafsilva/aoc2023/day5/Solver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2023/src/main/kotlin/pt/davidafsilva/aoc2023/day5/Solver.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +81,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Build aoc.executor": "Run",
+    "Kotlin.SolverKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -88,23 +90,24 @@
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "jdk.selected.JAVA_MODULE": "zulu-17",
-    "last_opened_file_path": "/Users/dsi30/dev/davidafsilva/aoc/aoc-2023/src/main/kotlin/pt/davidafsilva/aoc2023",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/dsi30/dev/davidafsilva/aoc/aoc-2023/src/main/kotlin/pt/davidafsilva/aoc2023/day5",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.editor"
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/aoc-2023/src/main/kotlin/pt/davidafsilva/aoc2023" />
+      <recent name="$PROJECT_DIR$/aoc-2023/src/main/kotlin/pt/davidafsilva/aoc2023/day5" />
       <recent name="$PROJECT_DIR$/aoc-2023/src/main/resources" />
+      <recent name="$PROJECT_DIR$/aoc-2023/src/main/kotlin/pt/davidafsilva/aoc2023" />
       <recent name="$PROJECT_DIR$/aoc-2023/src/main/kotlin/pt/davidafsilva/aoc2023/day2" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/aoc-2022/src/main/kotlin" />
@@ -185,7 +188,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day 15" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 15" />
+    <MESSAGE value="fixes packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes packages" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
