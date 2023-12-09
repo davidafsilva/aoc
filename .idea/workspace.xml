@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5522a38f-6c5e-4dca-a8e3-2a14a5d9ba7a" name="Changes" comment="fixes packages">
-      <change afterPath="$PROJECT_DIR$/aoc-2023/src/main/kotlin/pt/davidafsilva/aoc2023/day8/Solver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc-2023/src/main/resources/day8/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aoc-2023/src/main/kotlin/pt/davidafsilva/aoc2023/day8/Solver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2023/src/main/kotlin/pt/davidafsilva/aoc2023/day8/Solver.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

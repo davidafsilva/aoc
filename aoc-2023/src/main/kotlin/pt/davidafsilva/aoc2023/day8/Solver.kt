@@ -11,24 +11,42 @@ fun main() {
 private fun NavigationMap.nodes(predicate: (String) -> Boolean): List<String> =
     destinations.keys.filter(predicate)
 
-private fun NavigationMap.steps(from: List<String>, target: List<String>): Int {
+private fun NavigationMap.steps(from: List<String>, target: List<String>): Long {
     var lrIdx = 0
-    var steps = 0
 
-    var current = from
     val targetSet = target.toSet()
-    while (!current.all { it in targetSet }) {
-        val dir = lr[lrIdx++ % lr.length]
-        val jump = when (dir) {
-            'L' -> Pair<String, String>::first
-            'R' -> Pair<String, String>::second
-            else -> error("invalid direction: $dir")
+    val stepsToATarget = from.map { start ->
+        var steps = 0
+        var current = start
+        while (current !in targetSet) {
+            val dir = lr[lrIdx]
+            val jump = when (dir) {
+                'L' -> Pair<String, String>::first
+                'R' -> Pair<String, String>::second
+                else -> error("invalid direction: $dir")
+            }
+            current = jump(destinations[current]!!)
+
+            steps++
+            if (++lrIdx >= lr.length) lrIdx = 0
         }
-        current = current.map { c -> jump(destinations[c]!!) }
-        steps++
+        steps.toLong()
     }
 
-    return steps
+    return stepsToATarget.reduce { acc, s -> lcm(acc, s) }
+}
+
+private fun lcm(a: Long, b: Long): Long {
+    val larger = if (a > b) a else b
+    val maxLcm = a * b
+    var lcm = larger
+    while (lcm <= maxLcm) {
+        if (lcm % a == 0L && lcm % b == 0L) {
+            return lcm
+        }
+        lcm += larger
+    }
+    return maxLcm
 }
 
 private fun loadNavigationMap(): NavigationMap = scanInput(8).use { sc ->
