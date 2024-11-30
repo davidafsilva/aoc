@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.9.21"
+    kotlin("jvm") version "2.1.0"
 }
 
 allprojects {
@@ -21,7 +21,7 @@ subprojects {
 
     dependencies {
         implementation("net.objecthunter:exp4j:0.4.8")
-        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
-        implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.1")
+        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0")
+        implementation("org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.7.3")
     }
 }
