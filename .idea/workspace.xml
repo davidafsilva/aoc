@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5522a38f-6c5e-4dca-a8e3-2a14a5d9ba7a" name="Changes" comment="fixes packages">
-      <change afterPath="$PROJECT_DIR$/aoc-2024/src/main/kotlin/pt/davidafsilva/aoc2024/day3/Solver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc-2024/src/main/resources/day3/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aoc-2024/src/main/kotlin/pt/davidafsilva/aoc2024/day4/Solver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2024/src/main/kotlin/pt/davidafsilva/aoc2024/day4/Solver.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aoc-2024/src/main/resources/day4/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2024/src/main/resources/day4/input.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +88,7 @@
     &quot;Kotlin.SolverKt (1).executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.SolverKt (2).executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.SolverKt (3).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.SolverKt (4).executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.SolverKt.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -98,7 +99,7 @@
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;zulu-17&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dsi30/dev/davidafsilva/aoc/aoc-2024/src/main/kotlin/pt/davidafsilva/aoc2024&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dsi30/dev/davidafsilva/aoc/aoc-2024/src/main/resources&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -110,8 +111,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/aoc-2024/src/main/kotlin/pt/davidafsilva/aoc2024" />
       <recent name="$PROJECT_DIR$/aoc-2024/src/main/resources" />
+      <recent name="$PROJECT_DIR$/aoc-2024/src/main/kotlin/pt/davidafsilva/aoc2024" />
       <recent name="$PROJECT_DIR$/aoc-2024/src/main/kotlin/pt/davidafsilva/aoc2024/day2" />
       <recent name="$PROJECT_DIR$/aoc-2024" />
       <recent name="$PROJECT_DIR$/aoc-2023/src/main/kotlin/pt/davidafsilva/aoc2023" />
@@ -127,7 +128,7 @@
       <recent name="pt.davidafsilva.aoc2022.day8" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SolverKt (3)">
+  <component name="RunManager" selected="Kotlin.SolverKt (4)">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="aoc-2022" />
       <working_directory value="$PROJECT_DIR$" />
@@ -168,6 +169,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolverKt (4)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pt.davidafsilva.aoc2022.pt.davidafsilva.aoc2024.day4.SolverKt" />
+      <module name="aoc.aoc-2024.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="zulu-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -180,6 +188,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SolverKt (4)" />
         <item itemvalue="Kotlin.SolverKt (3)" />
         <item itemvalue="Kotlin.SolverKt (2)" />
         <item itemvalue="Kotlin.SolverKt (1)" />
