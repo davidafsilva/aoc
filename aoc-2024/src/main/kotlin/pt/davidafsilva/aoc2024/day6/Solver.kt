@@ -1,4 +1,4 @@
-package pt.davidafsilva.aoc2022.pt.davidafsilva.aoc2024.day6
+package pt.davidafsilva.aoc2024.day6
 
 import pt.davidafsilva.aoc2022.loadInput
 

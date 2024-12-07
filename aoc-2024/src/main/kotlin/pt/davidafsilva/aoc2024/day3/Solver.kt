@@ -1,4 +1,4 @@
-package pt.davidafsilva.aoc2022.pt.davidafsilva.aoc2024.day3
+package pt.davidafsilva.aoc2024.day3
 
 import pt.davidafsilva.aoc2022.loadInput
 import java.util.regex.Pattern

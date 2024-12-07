@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5522a38f-6c5e-4dca-a8e3-2a14a5d9ba7a" name="Changes" comment="fixes packages">
-      <change afterPath="$PROJECT_DIR$/.kotlin/errors/errors-1733574177745.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc-2024/src/main/kotlin/pt/davidafsilva/aoc2024/day6/Solver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc-2024/src/main/resources/day6/input.txt" afterDir="false" />
+    <list default="true" id="5522a38f-6c5e-4dca-a8e3-2a14a5d9ba7a" name="Changes" comment="fixes package declarations">
+      <change beforePath="$PROJECT_DIR$/aoc-2024/src/main/kotlin/pt/davidafsilva/aoc2024/day7/Solver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2024/src/main/kotlin/pt/davidafsilva/aoc2024/day7/Solver.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +99,7 @@
     "go.import.settings.migrated": "true",
     "jdk.selected.JAVA_MODULE": "zulu-17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/dsi30/dev/davidafsilva/aoc/aoc-2024/src/main/resources",
+    "last_opened_file_path": "/Users/dsi30/dev/davidafsilva/aoc/aoc-2024/src/main/kotlin/pt/davidafsilva/aoc2024",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -113,8 +111,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/aoc-2024/src/main/resources" />
       <recent name="$PROJECT_DIR$/aoc-2024/src/main/kotlin/pt/davidafsilva/aoc2024" />
+      <recent name="$PROJECT_DIR$/aoc-2024/src/main/resources" />
       <recent name="$PROJECT_DIR$/aoc-2024/src/main/kotlin/pt/davidafsilva/aoc2024/day2" />
       <recent name="$PROJECT_DIR$/aoc-2024" />
       <recent name="$PROJECT_DIR$/aoc-2023/src/main/kotlin/pt/davidafsilva/aoc2023" />
@@ -250,7 +248,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day 15" />
     <MESSAGE value="fixes packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes packages" />
+    <MESSAGE value="fixes package declarations" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes package declarations" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
