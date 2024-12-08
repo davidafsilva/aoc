@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5522a38f-6c5e-4dca-a8e3-2a14a5d9ba7a" name="Changes" comment="aoc2024 day7">
-      <change afterPath="$PROJECT_DIR$/aoc-2024/src/main/kotlin/pt/davidafsilva/aoc2024/day8/Solver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc-2024/src/main/resources/day8/input.txt" afterDir="false" />
-    </list>
+    <list default="true" id="5522a38f-6c5e-4dca-a8e3-2a14a5d9ba7a" name="Changes" comment="aoc2024 day7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +83,7 @@
   "keyToString": {
     "Gradle.Build aoc.executor": "Run",
     "Kotlin.SolverKt (1).executor": "Run",
-    "Kotlin.SolverKt (2).executor": "Run",
+    "Kotlin.SolverKt (2).executor": "Debug",
     "Kotlin.SolverKt (3).executor": "Run",
     "Kotlin.SolverKt (4).executor": "Run",
     "Kotlin.SolverKt (5).executor": "Run",
@@ -104,9 +101,9 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
+    "project.structure.side.proportion": "0.34367815",
     "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
@@ -129,7 +126,7 @@
       <recent name="pt.davidafsilva.aoc2022.day8" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SolverKt (2)">
+  <component name="RunManager">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="aoc-2022" />
       <working_directory value="$PROJECT_DIR$" />
@@ -149,50 +146,6 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="SolverKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pt.davidafsilva.aoc2024.day7.SolverKt" />
-      <module name="aoc.aoc-2024.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolverKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pt.davidafsilva.aoc2024.day8.SolverKt" />
-      <module name="aoc.aoc-2024.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolverKt (4)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pt.davidafsilva.aoc2022.pt.davidafsilva.aoc2024.day4.SolverKt" />
-      <module name="aoc.aoc-2024.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolverKt (5)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pt.davidafsilva.aoc2022.pt.davidafsilva.aoc2024.day5.SolverKt" />
-      <module name="aoc.aoc-2024.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pt.davidafsilva.aoc2022.pt.davidafsilva.aoc2024.day6.SolverKt" />
-      <module name="aoc.aoc-2024.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Kotlin.SolverKt (2)" />
-        <item itemvalue="Kotlin.SolverKt (1)" />
-        <item itemvalue="Kotlin.SolverKt" />
-        <item itemvalue="Kotlin.SolverKt (5)" />
-        <item itemvalue="Kotlin.SolverKt (4)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
