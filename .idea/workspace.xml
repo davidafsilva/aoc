@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5522a38f-6c5e-4dca-a8e3-2a14a5d9ba7a" name="Changes" comment="fixes package declarations">
-      <change beforePath="$PROJECT_DIR$/aoc-2024/src/main/kotlin/pt/davidafsilva/aoc2024/day7/Solver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/aoc-2024/src/main/kotlin/pt/davidafsilva/aoc2024/day7/Solver.kt" afterDir="false" />
+    <list default="true" id="5522a38f-6c5e-4dca-a8e3-2a14a5d9ba7a" name="Changes" comment="aoc2024 day7">
+      <change afterPath="$PROJECT_DIR$/aoc-2024/src/main/kotlin/pt/davidafsilva/aoc2024/day8/Solver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aoc-2024/src/main/resources/day8/input.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +100,7 @@
     "go.import.settings.migrated": "true",
     "jdk.selected.JAVA_MODULE": "zulu-17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/dsi30/dev/davidafsilva/aoc/aoc-2024/src/main/kotlin/pt/davidafsilva/aoc2024",
+    "last_opened_file_path": "/Users/dsi30/dev/davidafsilva/aoc/aoc-2024/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -111,8 +112,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/aoc-2024/src/main/kotlin/pt/davidafsilva/aoc2024" />
       <recent name="$PROJECT_DIR$/aoc-2024/src/main/resources" />
+      <recent name="$PROJECT_DIR$/aoc-2024/src/main/kotlin/pt/davidafsilva/aoc2024" />
       <recent name="$PROJECT_DIR$/aoc-2024/src/main/kotlin/pt/davidafsilva/aoc2024/day2" />
       <recent name="$PROJECT_DIR$/aoc-2024" />
       <recent name="$PROJECT_DIR$/aoc-2023/src/main/kotlin/pt/davidafsilva/aoc2023" />
@@ -128,7 +129,7 @@
       <recent name="pt.davidafsilva.aoc2022.day8" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SolverKt (1)">
+  <component name="RunManager" selected="Kotlin.SolverKt (2)">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="aoc-2022" />
       <working_directory value="$PROJECT_DIR$" />
@@ -155,8 +156,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolverKt (3)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pt.davidafsilva.aoc2022.pt.davidafsilva.aoc2024.day3.SolverKt" />
+    <configuration name="SolverKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pt.davidafsilva.aoc2024.day8.SolverKt" />
       <module name="aoc.aoc-2024.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -185,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SolverKt (2)" />
         <item itemvalue="Kotlin.SolverKt (1)" />
         <item itemvalue="Kotlin.SolverKt" />
         <item itemvalue="Kotlin.SolverKt (5)" />
         <item itemvalue="Kotlin.SolverKt (4)" />
-        <item itemvalue="Kotlin.SolverKt (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +250,8 @@
     <MESSAGE value="day 15" />
     <MESSAGE value="fixes packages" />
     <MESSAGE value="fixes package declarations" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes package declarations" />
+    <MESSAGE value="aoc2024 day7" />
+    <option name="LAST_COMMIT_MESSAGE" value="aoc2024 day7" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
