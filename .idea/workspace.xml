@@ -85,6 +85,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Build aoc.executor": "Run",
+    "Kotlin.Day9Kt.executor": "Run",
     "Kotlin.SolverKt (1).executor": "Run",
     "Kotlin.SolverKt (2).executor": "Debug",
     "Kotlin.SolverKt (3).executor": "Run",
@@ -107,7 +108,7 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.34367815",
-    "settings.editor.selected.configurable": "actions.on.save"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">

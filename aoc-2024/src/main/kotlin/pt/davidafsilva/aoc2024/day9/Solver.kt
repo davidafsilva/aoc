@@ -2,51 +2,73 @@ package pt.davidafsilva.aoc2024.day9
 
 import pt.davidafsilva.aoc2022.loadInput
 
+private sealed class Block {
+    data class File(val id: Int, val size: Int) : Block()
+    data class Free(val size: Int) : Block()
+}
+
 fun main() {
-    val diskMap = loadInput(9).first()
-    val fileBlocks = mutableListOf<Int>()
-    val freeBlocks = mutableListOf<Int>()
-    for ((idx, block) in diskMap.withIndex()) {
+    val map = loadInput(9).joinToString("")
+    val disk = mutableListOf<Block>()
+    var id = 0
+    for ((idx, block) in map.withIndex()) {
         if (idx % 2 == 0) {
-            fileBlocks.add(block.digitToInt())
+            val size = block.digitToInt()
+            disk.add(Block.File(id, size))
+            id++
         } else {
-            freeBlocks.add(block.digitToInt())
+            disk.add(Block.Free(size = block.digitToInt()))
+        }
+    }
+
+    // hack to easily - aka no changes - share the 2nd solution with the 1st one
+    val expandedDisk = disk.flatMapTo(mutableListOf()) { b ->
+        if (b is Block.File) {
+            List(b.size) { Block.File(b.id, size = 1) }
+        } else {
+            listOf(b)
         }
     }
 
     // 1st part
-    println("checksum: ${compactChecksum(fileBlocks, freeBlocks)}")
+    println("Checksum: ${checksum(expandedDisk)}")
+
+    // 2nd part
+    println("Checksum: ${checksum(disk.toMutableList())}")
 }
 
-fun compactChecksum(fileBlocks: MutableList<Int>, freeBlocks: MutableList<Int>): Long {
-    var checksum = 0L
-    var id = 0
-    var idx = 0
-    var reverseIdx = fileBlocks.size - 1
-    var reverseBlocksLeft = fileBlocks.last()
-
-    checksum@ while (idx < fileBlocks.size) {
-        // file block
-        if (idx < reverseIdx) {
-            repeat(fileBlocks[idx]) {
-                checksum += id++ * idx
-            }
-            idx++
-        }
-
-        // check free space
-        if (reverseIdx >= idx) {
-            var capacity = freeBlocks[idx - 1]
-            while (capacity > 0) {
-                if (reverseBlocksLeft == 0) {
-                    if (reverseIdx == idx) break@checksum
-                    reverseIdx--
-                    reverseBlocksLeft = fileBlocks[reverseIdx]
+private fun checksum(disk: MutableList<Block>): Long {
+    // compact
+    var rIdx = disk.size - 1
+    while (rIdx >= 0) {
+        val block = disk[rIdx]
+        if (block is Block.File) {
+            val freeBlockIdxValue = disk.withIndex().asSequence()
+                .take(rIdx)
+                .firstOrNull { (_, b) -> b is Block.Free && b.size >= block.size }
+            if (freeBlockIdxValue != null) {
+                val freeBlock = freeBlockIdxValue.value as Block.Free
+                val capacityLeft = freeBlock.size - block.size
+                disk[freeBlockIdxValue.index] = block
+                disk[rIdx] = Block.Free(block.size)
+                if (capacityLeft > 0) {
+                    disk.add(freeBlockIdxValue.index + 1, Block.Free(capacityLeft))
+                    rIdx++
                 }
-                checksum += (id++ * reverseIdx)
-                reverseBlocksLeft--
-                capacity--
             }
+        }
+        rIdx--
+    }
+
+    // checksum
+    var checksum = 0L
+    var idx = 0
+    disk.forEach { b ->
+        when (b) {
+            is Block.File -> repeat(b.size) {
+                checksum += (idx++ * b.id)
+            }
+            is Block.Free -> idx += b.size
         }
     }
 
