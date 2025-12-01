@@ -4,56 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5522a38f-6c5e-4dca-a8e3-2a14a5d9ba7a" name="Changes" comment="aoc2024 day7">
-      <change afterPath="$PROJECT_DIR$/aoc-2024/src/main/kotlin/pt/davidafsilva/aoc2024/day10/Solver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aoc-2024/src/main/resources/day10/input.txt" afterDir="false" />
-    </list>
+    <list default="true" id="c2c65fc2-023e-4f17-9228-cb46adaf5806" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
-  </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="PARALLEL_COMPILATION" value="true" />
-  </component>
-  <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$">
-      <ProjectState />
-    </projectState>
-  </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="aoc" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Kotlin Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FormatOnSaveOptions">
-    <option name="myFormatOnlyChangedLines" value="true" />
-    <option name="myAllFileTypesSelected" value="true" />
-    <option name="mySelectedFileTypes">
-      <set />
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,22 +16,10 @@
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
   </component>
-  <component name="KotlinScriptingSettings" supportWarning="false" />
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="OptimizeOnSaveOptions">
-    <option name="myRunOnSave" value="true" />
-  </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="2" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 6
-}</component>
-  <component name="ProjectId" id="2IJeRZk2gRPEEoFfzrlxuvtqg34" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="36Eyqk20XG5BjTJQ7p3cAtPxLS1" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -84,131 +27,34 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Gradle.Build aoc.executor": "Run",
-    "Kotlin.Day9Kt.executor": "Run",
-    "Kotlin.SolverKt (1).executor": "Run",
-    "Kotlin.SolverKt (2).executor": "Debug",
-    "Kotlin.SolverKt (3).executor": "Run",
-    "Kotlin.SolverKt (4).executor": "Run",
-    "Kotlin.SolverKt (5).executor": "Run",
-    "Kotlin.SolverKt.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
-    "jdk.selected.JAVA_MODULE": "zulu-17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/dsi30/dev/davidafsilva/aoc/aoc-2024/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.34367815",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/aoc-2024/src/main/resources" />
-      <recent name="$PROJECT_DIR$/aoc-2024/src/main/kotlin/pt/davidafsilva/aoc2024" />
-      <recent name="$PROJECT_DIR$/aoc-2024/src/main/kotlin/pt/davidafsilva/aoc2024/day2" />
-      <recent name="$PROJECT_DIR$/aoc-2024" />
-      <recent name="$PROJECT_DIR$/aoc-2023/src/main/kotlin/pt/davidafsilva/aoc2023" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/aoc-2022/src/main/kotlin" />
-      <recent name="$PROJECT_DIR$/aoc-2022/src/main/resources" />
-      <recent name="$PROJECT_DIR$/aoc-2022/src/main" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/resources/day1" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="pt.davidafsilva.aoc2022.day8" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="aoc-2022" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="aoc-2022" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
       </set>
     </attachedChunks>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2c65fc2-023e-4f17-9228-cb46adaf5806" name="Changes" comment="" />
+      <created>1764586217340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764586217340</updated>
+    </task>
+    <servers />
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="a7cd0b18-fa4e-4774-9cbc-e3b6683824c7" value="TOOL_WINDOW" />
-      </map>
-    </option>
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-        <entry key="a7cd0b18-fa4e-4774-9cbc-e3b6683824c7">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                  <entry key="structure">
-                    <value>
-                      <list>
-                        <option value="dir:/Users/dsi30/dev/davidafsilva/aoc-2022/src/main/kotlin/pt/davidafsilva/aoc2022" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="day 15" />
-    <MESSAGE value="fixes packages" />
-    <MESSAGE value="fixes package declarations" />
-    <MESSAGE value="aoc2024 day7" />
-    <option name="LAST_COMMIT_MESSAGE" value="aoc2024 day7" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
