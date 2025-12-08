@@ -1,13 +1,12 @@
 package pt.davidafsilva.aoc2022.pt.davidafsilva.aoc2025.day7
 
 import pt.davidafsilva.aoc2022.loadInput
-import java.util.LinkedList
 
 fun main() {
     val simulation = loadSimulation()
     simulation.run()
     println("1st part: ${simulation.splits}")
-    println("2nd part: ${simulation.timelines}")
+    println("2nd part: ${simulation.totalPaths}")
 }
 
 private fun loadSimulation(): Simulation {
@@ -31,36 +30,31 @@ private data class Simulation(
     private val grid: List<MutableList<Char>>,
     val start: Beam,
 ) {
-    data class Beam(val x: Int, val y: Int)
+    data class Beam(val x: Int, val y: Int) {
+        fun move(x: Int = 0) = copy(x = this.x + x, y = this.y + 1)
+    }
 
-    private val beams = LinkedList<Beam>(listOf(start))
-    private val visited = mutableSetOf<Beam>()
+    private val visited = mutableMapOf<Beam, Long>()
 
     var splits = 0
         private set
-    var timelines: Int = 1
+    var totalPaths: Long = 0
         private set
 
     fun run() {
-        while (beams.isNotEmpty()) {
-            val newBeams = move(beams.pop())
-            beams.addAll(newBeams)
-        }
+        totalPaths = move(start)
     }
 
-    private fun move(b: Beam): List<Beam> {
-        if (b.isOutOfBounds() || b in visited) return emptyList()
-        visited.add(b)
-
-        return when (grid[b.y][b.x]) {
-            '.' -> listOf(b.copy(y = b.y + 1))
-            '^' -> {
-                splits++
-                move(b.copy(x = b.x - 1)) + move(b.copy(x = b.x + 1))
-            }
-            else -> error("unsupported char")
+    private fun move(b: Beam): Long = when {
+        b.isOutOfBounds() -> 1
+        b in visited -> visited[b]!!
+        grid[b.y][b.x] == '.' -> move(b.move())
+        grid[b.y][b.x] == '^' -> {
+            splits++
+            move(b.move(x = -1)) + move(b.move(x = 1))
         }
-    }
+        else -> 0
+    }.also { visited[b] = it }
 
     private fun Beam.isOutOfBounds(): Boolean = y < 0 || y >= grid.size
 }
